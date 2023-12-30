@@ -2,7 +2,7 @@ name: Build
 on:
   pull_request:
     branches:
-      - 'dev'
+      - 'main'
   merge_group:
 
 jobs:
