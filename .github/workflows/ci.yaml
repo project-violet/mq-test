@@ -13,3 +13,4 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha || github.event.merge_group.head_sha }}
           
+      - run: sleep 60
